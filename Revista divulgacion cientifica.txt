@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando el Futuro - Información de la Revista</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0066cc;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #444;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p, ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Explorando el Futuro</h1>
+    <p>Bienvenidos a la página de información de nuestra revista de divulgación científica "Explorando el Futuro". Aquí podrás encontrar todos los detalles sobre nuestra publicación.</p>
+
+    <!-- Sección de Contactos -->
+    <div class="section" id="contacto">
+        <h2>Contactos</h2>
+        <p><strong>Email:</strong> contacto@explorandoelfuturo.com</p>
+        <p><strong>Teléfono:</strong> +1 (555) 123-4567</p>
+    </div>
+
+    <!-- Sección de Colaboradores -->
+    <div class="section" id="colaboradores">
+        <h2>Colaboradores</h2>
+        <ul>
+            <li>Dr. Ana Martínez - Física Cuántica</li>
+            <li>Ing. Luis Gómez - Inteligencia Artificial</li>
+            <li>Lic. Carmen Ríos - Biotecnología</li>
+            <li>Dr. Roberto Díaz - Energías Renovables</li>
+        </ul>
+    </div>
+
+    <!-- Sección de Copias Hechas y Copias Vendidas -->
+    <div class="section" id="copias">
+        <h2>Copias</h2>
+        <div class="info-item">
+            <span><strong>Copias hechas:</strong></span>
+            <span>50,000</span>
+        </div>
+        <div class="info-item">
+            <span><strong>Copias vendidas:</strong></span>
+            <span>45,000</span>
+        </div>
+    </div>
+
+    <!-- Sección de Creadores -->
+    <div class="section" id="creadores">
+        <h2>Creadores</h2>
+        <ul>
+            <li>Sara Fernández - Editora en Jefe</li>
+            <li>Marco López - Director de Diseño</li>
+            <li>Elena Navarro - Coordinadora de Contenido</li>
+            <li>Jorge Ramírez - Director de Marketing</li>
+        </ul>
+    </div>
+
+    <!-- Sección de Fecha de Lanzamiento -->
+    <div class="section" id="lanzamiento">
+        <h2>Fecha de Lanzamiento</h2>
+        <p>La primera edición de "Explorando el Futuro" fue lanzada el <strong>1 de marzo de 2023</strong>.</p>
+    </div>
+</div>
+
+</body>
+</html>
